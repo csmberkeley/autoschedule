@@ -29,10 +29,7 @@ git checkout -b {SEMESTER}
 
 ### Room scheduling
 
-The first task for scheduling rooms is to acquire rooms. Book all the available
-slots, then update the `rooms.yml` file with the room availibility.
-
-We'll also need to collect fresh preferences: create a Google Form with
+The first task is to collect mentor availability: create a Google Form with
 multiple-choice checkboxes where each row represents the day and each column
 represents a possible start time. Download the data into a file named
 `preferences.csv`.
